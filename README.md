@@ -38,3 +38,4 @@ PostGIS requires more configuration and technoligical knowledge for debugging, b
 #### statistical address parsers (rather than rule/regex based)
 - [python - usaddress](https://github.com/datamade/usaddress)
 - [python/C - pypostal - international](https://github.com/openvenues/pypostal)
+- Consider local and archived storage as parquet [geoparquet implements](https://geoparquet.org/#implementations)
