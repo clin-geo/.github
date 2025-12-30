@@ -21,6 +21,7 @@ PostGIS requires more configuration and technoligical knowledge for debugging, b
 - [ ] If performant, ideally minimize number of languages, Ruby and non-precompile C may no longer be necessary
 - [ ] Release tools to support GUI workflows with hosted PostGIS configurations (these tools have been built in development, but are not yet ready for public release)
 - [ ] provide support for geo-routing to estimate time and distance between locations (likely use open street map, but consider arbitrarily supporting any two addresses rather than just isocrons with known clinic locations)
+- [ ] consolidate geocoding address to lat/long with lat/long to FIPS counds (11-15 digit FIPS)
 
 ### geo-data storage, versioning, and optimization
 - [ ] expore www2.census.gov policies on redistribution
@@ -29,6 +30,7 @@ PostGIS requires more configuration and technoligical knowledge for debugging, b
 ## Prior Code Dependencies and Potentially Useful Future Tools
 ### Existing Dependencies
 #### DeGAUSS
+- [Original C and Ruby implementation of shp2sqlite (C), metaphone.rb, and geocoder ruby gem](https://github.com/geocommons/geocoder)
 
 #### PostGIS
 
